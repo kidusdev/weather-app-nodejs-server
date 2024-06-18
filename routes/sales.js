@@ -1,4 +1,4 @@
-const sales = Array(10000).fill(0).map((_,i) => ({
+const sales = Array(100000).fill(0).map((_,i) => ({
     "id": i,
     "admin_name": "female",
     "item_name": "Senior",
