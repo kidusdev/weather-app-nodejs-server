@@ -13,4 +13,4 @@ const sales = Array(10000).fill(0).map((_,i) => ({
     "createdAt": "2024-06-17T13:33:01.752Z"
 }));
 
-export default sales;
+module.exports = sales;
