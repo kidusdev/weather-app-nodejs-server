@@ -1,5 +1,5 @@
 var express = require('express');
-var sales = require('sales.js');
+var sales = require('./sales.js');
 var router = express.Router();
 
 router.get('/:location?', function (req, res, next) {
